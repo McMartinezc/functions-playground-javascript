@@ -6,7 +6,7 @@
  * Modifica únicamente la función para conseguirlo.
  */
 function isUpperCase(word) {
-  return true;
+  return (word === word.toUpperCase()) ? true : false;
 }
 
 /**

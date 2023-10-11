@@ -1,7 +1,7 @@
 /**
  * El ciclista
  *
- * Queremos implementar una función que calcule, en función de los quilómetros que el ciclista queire recorrer, cuantos litros de agua necesita
+ * Queremos implementar una función que calcule, en función de los quilómetros que el ciclista quiere recorrer, cuantos litros de agua necesita
  *
  * Sabemos que para recorrer 1km, necesita 0.5 litros.
  *
@@ -10,8 +10,8 @@
  */
 
 function agua_necesaria(km) {
-  let agua = 1;
-  return agua;
+  let agua = 0.5;
+  return agua * km;
 }
 
 let agua = agua_necesaria(5);
